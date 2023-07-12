@@ -21,11 +21,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.site-header{
+/* .site-header{
   height: 85px;
   width: 100%;
   display: flex;
-}
+} */
 .site-header__social{
   border-right: 1px solid white;
   background-color: #3C9592;
