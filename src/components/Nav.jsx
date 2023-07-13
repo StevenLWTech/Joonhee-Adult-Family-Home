@@ -12,8 +12,10 @@ export default function Nav() {
   // }
   return (
     <nav>
-      <div className="flex justify-center .w-full bg-[#3C9592] text-green-50 h-24">
-        <div className='flex justify-center items-center space-x-4 border-r border-white w-2/12 '>
+      {/* <div className="flex justify-center .w-full bg-[#3C9592] text-green-50 h-20"> */}
+      <div className="flex justify-center .w-full bg-white text-[#303D46] h-40 border-b-8 border-[#6FB551]">
+        <div className='flex justify-center items-center space-x-4 border-r-2 border-[#6FB551] w-2/12 '>
+          {/* <div className='flex justify-center items-center space-x-4 border-r border-white w-2/12 '> */}
           {/*Instagram*/}
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +56,8 @@ export default function Nav() {
           <div className='pr-4'>FAQS</div>
 
         </div>
-        <div className='flex justify-center items-center w-2/12 bg-[#EEE7DA] text-xl text-black ' >
+        <div className='flex justify-center items-center w-2/12 bg-orange-50 text-xl text-black ' >
+          {/* <div className='flex justify-center items-center w-2/12 bg-[#EEE7DA] text-xl text-black ' > */}
           Contact
         </div>
       </div>
