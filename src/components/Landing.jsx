@@ -1,34 +1,31 @@
-import React from 'react'
+import React from 'react';
 import Carousel from './ui/ImageCarousel';
-export default function Landing() {
-    <script
-        type="text/javascript"
-        src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js">
-    </script>
-    return (
-        <section className="flex flex-row justify-center items-center  h-[calc(100vh_-_94px)] bg-green-50 ">
-            <div className='xl:flex flex-column w-3/4 ' >
-                <div className='flex justify-center justify-end w-1/2 px-24'>
-                    <div className='text-left max-w-xlt bg-[#3B9592] text-white p-12'>
-                        <div className='text-xl pb-6 '>JOONHEE SENIOR LIVING OF BELLEVUE</div>
-                        <div className='text-5xl '>Welcome Home to </div>
-                        <div className='text-5xl pb-8'>Your ʻJoonhee! </div>
+import { IconButton } from "@material-tailwind/react";
 
-                        <div className='text-2xl pb-4'>Receive safe, personalized, and competent round-the-clock care in our beautiful adult family home.</div>
-                        <div className='flex flex-row text-xl'>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+export default function Landing() {
+    return (
+        <section className="flex flex-col xl:flex-row justify-center items-center h-[calc(100vh - 94px)] bg-green-50 pt-24 px-4 xl:px-24">
+            <div className="xl:flex flex-row-reverse pb-48 md:pb-24 sm:pb-12">
+                <div className="w-full xl:w-1/2 px-4 xl:px-24">
+                    <Carousel />
+                </div>
+                <div className="w-full xl:w-1/2 px-4">
+                    <div className="max-w-xlt text-black p-8 xl:p-12 xl:text-left px-36">
+                        <div className='text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl pl-4 pb-2'>
+                            JOONHEE SENIOR LIVING OF BELLEVUE</div>
+                        <div className='text-4xl sm:text-3xl md:text-6xl lg:text-4xl xl:text-6xl pb-6 leading-tight'>
+                            Welcome Home to Your ʻJoonhee!</div>
+
+                        <div className="text-xl xl:text-3xl pb-4">Experience 24/7 competent care in our lovely adult family home, tailored to your safety and personal needs.</div>
+                        <div className="flex flex-row justify-center items-center text-lg xl:text-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
                             </svg>
-                            <div className='pl-4'>Contact Us</div>
+                            <div className="pl-2 hover:text-black hover:underline"><a href="/">Contact Us</a></div>
                         </div>
                     </div>
                 </div>
-                <div className='w-1/2 bg-blue-50 border-2 border-gray-200'>
-                    <Carousel>
-                    </Carousel>
-                </div>
             </div>
         </section>
-
-    )
+    );
 }

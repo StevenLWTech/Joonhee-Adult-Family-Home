@@ -9,12 +9,22 @@ export default function ImageCarousel() {
                 className="h-full w-full object-cover"
             />
             <img
-                src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+                src="https://i.pinimg.com/736x/c6/6f/b7/c66fb7b279a660e3daf84e7d32efdf07--luxury-rooms-luxury-living.jpg"
                 alt="home 2"
                 className="h-full w-full object-cover"
             />
             <img
-                src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+                src="https://germaniaconstruction.com/wp-content/uploads/2022/11/park-city-custom-home-builder-great-room.jpg"
+                alt="home 3"
+                className="h-full w-full object-cover"
+            />
+            <img
+                src="https://germaniaconstruction.com/wp-content/uploads/2022/11/park-city-custom-home-builder-great-room.jpg"
+                alt="home 322"
+                className="h-full w-full object-cover"
+            />
+            <img
+                src="https://www.essentialhome.eu/inspirations/wp-content/uploads/2022/07/INSPIRATIONS-Top-13-Luxury-Home-Decor-Ideas-for-a-High-End-Interior.png"
                 alt="home 3"
                 className="h-full w-full object-cover"
             />

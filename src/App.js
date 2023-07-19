@@ -1,25 +1,22 @@
-// import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Nav';
-// import Example from './components/Example';
-import Landing from './components/Landing'
-import Next from './components/next'
+import Footer from './components/Footer'
+import Next from './components/LandingInfo'
 import Home from './pages/Home';
+import About from './pages/About';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 
 function App() {
   return (
     <Router>
     <div className="App">
       <Nav/>
-      {/* <Example/> */}
-      <Landing/>
-      <Next/>
       <Routes>
-      <Route path ="/" exact component={Home}/>
-      <Route path ="/books"/>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/about" exact element={<About />} />
       </Routes>
+      <Footer/>
+
     </div>
     </Router>
   );
