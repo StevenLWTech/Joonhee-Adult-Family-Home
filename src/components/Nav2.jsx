@@ -85,7 +85,7 @@ export default function Example() {
                                                 className={classNames(
                                                     item.current
                                                         ? ' text-black text-xl'
-                                                        : ' space-x-16'
+                                                        : ' space-x-16' 
                                                 )}
                                                 aria-current={item.current ? 'page' : undefined}
                                             >
