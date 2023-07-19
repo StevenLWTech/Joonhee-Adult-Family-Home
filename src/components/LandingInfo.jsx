@@ -22,7 +22,7 @@ const LandingInfo = () => {
                         />
                     </div> */}
                 </div>
-                <div className='flex flex-col md:w-full sm:w-full justify-center lg:w-7/12 xl:w-7/12 text-left py-14 px-24 '>
+                <div className='flex flex-col md:w-full sm:w-full justify-center lg:w-7/12 xl:w-7/12 text-left py-14 px-24'>
                     <div className='text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl pl-4 pb-2'>
                         ---- Why 'Joonhee</div>
                     <div className='text-4xl sm:text-3xl md:text-6xl lg:text-4xl xl:text-6xl pb-6 leading-tight'>

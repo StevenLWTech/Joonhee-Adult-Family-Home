@@ -1,5 +1,6 @@
 import './App.css';
 import Nav from './components/Nav';
+import Nav2 from './components/Nav2';
 import Footer from './components/Footer'
 import Next from './components/LandingInfo'
 import Home from './pages/Home';
@@ -10,7 +11,8 @@ function App() {
   return (
     <Router>
     <div className="App">
-      <Nav/>
+      <Nav2/>
+      {/* <Nav/> */}
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/about" exact element={<About />} />
