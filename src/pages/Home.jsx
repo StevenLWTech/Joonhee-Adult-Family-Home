@@ -1,6 +1,6 @@
 import React from 'react'
-import Landing from '../components/Landing'
-import LandingInfo from '../components/LandingInfo'
+import Landing from '../components/home/Landing'
+import LandingInfo from '../components/home/LandingInfo'
 export default function Home() {
   return (
     <>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from './ui/ImageCarousel';
+import Carousel from '../ui/ImageCarousel';
 import { IconButton } from "@material-tailwind/react";
 
 export default function Landing() {
@@ -18,7 +18,7 @@ export default function Landing() {
 
                         <div className="text-xl xl:text-3xl pb-4">Experience 24/7 competent care in our lovely adult family home, tailored to your safety and personal needs.</div>
                         <div className="flex flex-row justify-center items-center sm:justify-start text-lg xl:text-xl">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
                             </svg>
                             <div className="pl-2 hover:text-black hover:underline"><a href="/">Contact Us</a></div>

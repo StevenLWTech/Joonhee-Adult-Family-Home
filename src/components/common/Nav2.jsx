@@ -4,17 +4,17 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
     { name: 'HOME', href: '/', current: true },
-    { name: 'ABOUT US', href: '/', current: false },
+    { name: 'ABOUT US', href: '/about', current: false },
     { name: 'Joonhee', href: '/', current: false },
     { name: 'OUR AFH', href: '/', current: false },
     { name: 'FAQS', href: '/', current: false },
 ]
 const menu_navigation = [
     { name: 'HOME', href: '/', current: true },
-    { name: 'ABOUT US', href: '/', current: false },
+    { name: 'ABOUT US', href: '/about', current: false },
     { name: 'OUR AFH', href: '/', current: false },
     { name: 'FAQS', href: '/', current: false },
-    { name: 'CONTACT', href: '/', current: false },
+    { name: 'CONTACT', href: '/contact', current: false },
 ]
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -26,14 +26,14 @@ export default function Example() {
             {({ open }) => (
                 <>
                     <div className="mx-auto">
-                        <div className="relative flex h-40 sm:h-20 md:h-32 lg:h-40 items-center justify-center">
+                        <div className="relative flex h-40 sm:h-20 md:h-32 lg:h-40 items-center justify-center border-b-8 border-[#6FB551]">
                             <div className='flex justify-center items-center space-x-4 border-r-2 border-[#6FB551] w-2/12 hidden lg:flex'>
                                 {/* <div className='flex justify-center items-center space-x-4 border-r border-white w-2/12 '> */}
                                 {/*Instagram*/}
                                 <a href="https://instagram.com" className='hover:text-green-400 pr-4'>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        class="h-5 w-5"
+                                        className="h-5 w-5"
                                         fill="currentColor"
                                         viewBox="0 0 24 24">
                                         <path
@@ -44,7 +44,7 @@ export default function Example() {
                                 <a href="https://www.facebook.com/" className='hover:text-green-400 pr-4'>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        class="h-5 w-5"
+                                        className="h-5 w-5"
                                         fill="currentColor"
                                         viewBox="0 0 24 24">
                                         <path
@@ -55,7 +55,7 @@ export default function Example() {
                                 <a href="https://twitter.com/home" className='hover:text-green-400'>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        class="h-5 w-5"
+                                        className="h-5 w-5"
                                         fill="currentColor"
                                         viewBox="0 0 24 24">
                                         <path
@@ -85,7 +85,7 @@ export default function Example() {
                                                 className={classNames(
                                                     item.current
                                                         ? ' text-black text-xl'
-                                                        : ' space-x-16' 
+                                                        : ' space-x-16'
                                                 )}
                                                 aria-current={item.current ? 'page' : undefined}
                                             >
@@ -103,7 +103,7 @@ export default function Example() {
 
                                 </div>
                             </div>
-                            <a href="/" className='flex justify-center items-center w-2/12 h-full bg-[#3B9592] text-xl text-white hover:text-[#303D46] hidden lg:flex'>
+                            <a href="/contact" className='flex justify-center items-center w-2/12 h-full bg-[#3B9592] text-xl text-white hover:text-[#303D46] hidden lg:flex'>
                                 Contact
                             </a>
                             <div className='md:hidden sm:flex sm:flex-col pr-8 py-4'>

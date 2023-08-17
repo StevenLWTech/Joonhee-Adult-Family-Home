@@ -33,7 +33,7 @@ function About() {
                 {/* <div className='w-8/12'> */}
                 <div className='w-[1280px]'>
                     <div className="text-2xl pb-6">LUXURY ADULT FAMILY HOME CARE IN KIRKLAND, WA</div>
-                    <div className="text-6xl pb-6">ALOHA AND WELCOME!</div>
+                    <div className="text-6xl pb-12">ALOHA AND WELCOME!</div>
                     <div className="text-4xl">
                         Joonhee Senior Care provides a thoughtfully designed living environment for seniors, offering superior personal care, companionship, recreational activities, and a health maintenance program, ultimately enhancing their quality of life.                </div>
                 </div>
@@ -49,7 +49,7 @@ function About() {
             <div className='bg-green-50'>
                 <div className='flex flex-row justify-center px-24 pt-12 '>
                     <div className='flex flex-col justify-center w-9/12 text-left -mr-20 z-10'>
-                        <div className='bg-green-50 bg-blue-100 text-black px-12 py-8'>
+                        <div className='bg-green-100 text-black px-12 py-8'>
                             <div className='text-2xl py-2 pb'>Joonhee</div>
                             <div className='text-6xl py-2 pb'>The Joonhee Experience</div>
                             <div className='text-2xl py-2 pb'>When a resident joins our home, they become a part of our family. We strive to cherish each person as if they were part of our own family. To us, family means being loving, caring, and putting the needs of others first.</div>
@@ -72,7 +72,7 @@ function About() {
                         />
                     </div>
                     <div className='flex flex-col justify-center w-9/12 text-left pl-12 -ml-20 z-10'>
-                        <div className='bg-green-50 bg-blue-100 px-12 py-8'>
+                        <div className='bg-green-100 bg-blue-100 px-12 py-8'>
                             <div className='text-2xl py-2 pb'>Joonhee</div>
                             <div className='text-6xl py-2 pb'>The Joonhee Experience</div>
                             <div className='text-2xl py-2 pb'>When a resident joins our home, they become a part of our family. We strive to cherish each person as if they were part of our own family. To us, family means being loving, caring, and putting the needs of others first.</div>
@@ -81,7 +81,7 @@ function About() {
                 </div>
                 <div className='flex flex-row justify-center px-24 pt-12'>
                     <div className='flex flex-col justify-center w-9/12 text-left -mr-20 z-10'>
-                        <div className='bg-green-50 bg-blue-100 text-black px-12 py-8'>
+                        <div className='bg-green-100 bg-blue-100 text-black px-12 py-8'>
                             <div className='text-2xl py-2 pb'>Joonhee</div>
                             <div className='text-6xl py-2 pb'>The Joonhee Experience</div>
                             <div className='text-2xl py-2 pb'>When a resident joins our home, they become a part of our family. We strive to cherish each person as if they were part of our own family. To us, family means being loving, caring, and putting the needs of others first.</div>
@@ -104,7 +104,7 @@ function About() {
                         />
                     </div>
                     <div className='flex flex-col justify-center w-9/12 text-left pl-12 -ml-20 z-10'>
-                        <div className='bg-green-50 bg-blue-100 px-12 py-8'>
+                        <div className='bg-green-100 bg-blue-100 px-12 py-8'>
                             <div className='text-2xl py-2 pb'>Joonhee</div>
                             <div className='text-6xl py-2 pb'>The Joonhee Experience</div>
                             <div className='text-2xl py-2 pb'>When a resident joins our home, they become a part of our family. We strive to cherish each person as if they were part of our own family. To us, family means being loving, caring, and putting the needs of others first.</div>

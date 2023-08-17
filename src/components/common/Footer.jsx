@@ -23,13 +23,13 @@ export default function Footer() {
                         Experience our unparalleled service, for once you visit us, no other will compare.</div>
                     <div className='flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-row text-md pb-4'>
                         <a href='/' className='px-4 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-black hover:underline flex flex-row'>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
                             </svg>
                             <p className='text-2xl sm:text-xl md:text-1xl lg:text-xl xl:text-2xl pl-4 pb-6'>Get in Touch</p></a>
                         <a href='/' className='pl-4 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-black hover:underline flex flex-row'>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
                             </svg>
                             <p className='text-2xl sm:text-xl md:text-1xl lg:text-xl xl:text-2xl pl-4'>Faqs</p></a>
                     </div>
@@ -54,25 +54,25 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='footer-nav flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row justify-center sm:py-4 md:py-4'>
-                    <a href='/' className='pr-12 hover:text-black '>HOME
+                    <a href='/' className='pr-12 hover:text-green-400 '>HOME
                     </a>
-                    <a href='/' className='pr-12 hover:text-black' >ABOUT US
+                    <a href='/about' className='pr-12 hover:text-green-400' >ABOUT US
                     </a>
-                    <a href='/' className='pr-12 hover:text-black' >OUR AFH
+                    <a href='/' className='pr-12 hover:text-green-400' >OUR AFH
                     </a>
-                    <a href='/' className='pr-12 hover:text-black' >FAQS
+                    <a href='/' className='pr-12 hover:text-green-400' >FAQS
                     </a>
-                    <a href='/' className='hover:text-black'>CONTACT
+                    <a href='/' className='hover:text-green-400'>CONTACT
                     </a>
                 </div>
 
                 <div className='social-media flex flex-col sm:flex-row justify-center sm:py-4 md:py-4'>
                     {/* <div className='flex justify-center items-center space-x-4 border-r border-white w-2/12 '> */}
                     {/*Instagram*/}
-                    <a href='/' className='pr-8 hover:text-black'>
+                    <a href='/' className='pr-8 hover:text-green-400'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
+                            className="h-5 w-5"
                             fill="currentColor"
                             viewBox="0 0 24 24">
                             <path
@@ -80,10 +80,10 @@ export default function Footer() {
                         </svg>
                     </a>
                     {/*Facebook*/}
-                    <a href='/' className='pr-8 hover:text-black'>
+                    <a href='/' className='pr-8 hover:text-green-400'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
+                            className="h-5 w-5"
                             fill="currentColor"
                             viewBox="0 0 24 24">
                             <path
@@ -91,10 +91,10 @@ export default function Footer() {
                         </svg>
                     </a>
                     {/*Twitter*/}
-                    <a href='/' className='hover:text-black'>
+                    <a href='/' className='hover:text-green-400'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
+                            className="h-5 w-5"
                             fill="currentColor"
                             viewBox="0 0 24 24">
                             <path
@@ -109,7 +109,7 @@ export default function Footer() {
                         variant="small"
                         className="mb-4 text-center font-normal md:mb-0"
                     >
-                        &copy; {currentYear} <a href="https://material-tailwind.com/">Joonhee Senior Living of Kirkland, Washington.</a>
+                        &copy; {currentYear} Joonhee Senior Living of Kirkland, Washington.
                     </Typography>
 
                 </div>
