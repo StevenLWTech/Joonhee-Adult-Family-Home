@@ -26,7 +26,7 @@ export default function Example() {
             {({ open }) => (
                 <>
                     <div className="mx-auto">
-                        <div className="relative flex h-40 sm:h-20 md:h-32 lg:h-40 items-center justify-center border-b-8 border-[#6FB551]">
+                        <div className="relative flex h-20 md:h-32 lg:h-40 items-center justify-center border-b-8 border-[#6FB551]">
                             <div className='flex justify-center items-center space-x-4 border-r-2 border-[#6FB551] w-2/12 hidden lg:flex'>
                                 {/* <div className='flex justify-center items-center space-x-4 border-r border-white w-2/12 '> */}
                                 {/*Instagram*/}
@@ -103,7 +103,7 @@ export default function Example() {
 
                                 </div>
                             </div>
-                            <a href="/contact" className='flex justify-center items-center w-2/12 h-full bg-[#3B9592] text-xl text-white hover:text-[#303D46] hidden lg:flex'>
+                            <a href="/contact" className='flex justify-center items-center w-2/12 h-full bg-[#3B9592] text-xl text-white hover:text-[#303D46] hover:bg hidden lg:flex'>
                                 Contact
                             </a>
                             <div className='md:hidden sm:flex sm:flex-col pr-8 py-4'>

@@ -1,5 +1,12 @@
 import React, { useEffect } from 'react';
 import { initEmailJS, sendEmail } from './../js/emailService.js'
+import {
+    Card,
+    Input,
+    Checkbox,
+    Button,
+    Typography,
+} from "@material-tailwind/react";
 
 function Contact() {
     useEffect(() => {
@@ -12,8 +19,10 @@ function Contact() {
     };
 
     return (
-        <div>
-            <h1>Contact Form</h1>
+        <div className="flex flex-col  items-center h-[calc(100vh_-_94px)] pt-24 px-4 xl:px-24">
+            <div className='text-6xl'>Contact Us</div>
+            <div className='text-2xl'>Make an appointment today. We’re ready to welcome you into our ʻohana!</div>
+
             <form id="contact-form" onSubmit={handleSubmit}>
                 <input type="hidden" name="contact_number" />
                 <label>Name</label>
@@ -24,6 +33,9 @@ function Contact() {
                 <textarea name="message"></textarea>
                 <input type="submit" value="Send" />
             </form>
+
+
+
 
         </div>
     );
