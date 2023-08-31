@@ -7,7 +7,7 @@ export default function Footer() {
 
     return (
         // <div className='h-[calc(100vh_-_30vh)] lg:h-auto xl:h-auto'>
-        <div className='bg-orange-50 lg:h-[calc(100vh_-_30vh)] xl:h-[calc(100vh_-_30vh)] sm:h-full md:h-full '>
+        <div className='bg-orange-50 lg:h-[calc(100vh_-_30vh)] xl:h-[calc(100vh_-_30vh)] '>
             <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row h-8/12 '>
                 <div className='w-full sm:w-full md:w-full lg:w-1/3 xl:w-1/3'>
                     <img
@@ -16,7 +16,7 @@ export default function Footer() {
                         className="h-full w-full object-cover"
                     />
                 </div>
-                <div className='flex flex-col justify-center w-full sm:w-full md:w-full lg:w-1/3 xl:w-1/3 bg-[#FFFFF] text-[#485C69] text-left px-6 pr-12 md:pr-8'>
+                <div className='flex flex-col justify-center w-full sm:w-full md:w-full lg:w-1/3 xl:w-1/3 bg-[#FFFFF] text-[#485C69] text-left px-6 pr-12 md:pr-8 my-4'>
                     <div className='text-2x1 sm:text-xl md:text-2xl lg:text-xl xl:text-2xl py-4'>--- Contact Us</div>
                     <div className='text-2xl sm:text-4xl md:text-3xl lg:text-4xl xl:text-6xl pb-6 md:pb-2 text-black'>Schedule a Tour Today</div>
                     <div className='text-2xl sm:text-xl md:text-1xl lg:text-xl xl:text-2xl pb-6'>
@@ -43,7 +43,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className='flex flex-col justify-center h-5/12 bg-black text-white py-4 pt-8'>
-                <div className='pb-4'>
+                <div className='pb-6'>
                     <div>
                         <div className='flex flex-col'>
                             <p href="/" className='text-3xl md:text-2xl lg:text-3xl xl:text-4xl'>
@@ -53,20 +53,20 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className='footer-nav flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-center sm:py-4 md:py-4'>
-                    <a href='/' className='pr-12 hover:text-green-400 '>HOME
+                <div className="footer-nav flex flex-col text-center sm:text-left md:flex-row lg:flex-row xl:flex-row justify-center sm:py-4 md:py-4">
+                    <a href='/' className='pr-12 pb-1 hover:text-green-400 '>HOME
                     </a>
-                    <a href='/about' className='pr-12 hover:text-green-400' >ABOUT US
+                    <a href='/about' className='pr-12 pb-1 hover:text-green-400' >ABOUT US
                     </a>
-                    <a href='/' className='pr-12 hover:text-green-400' >OUR AFH
+                    <a href='/' className='pr-12 pb-1 hover:text-green-400' >OUR AFH
                     </a>
-                    <a href='/' className='pr-12 hover:text-green-400' >FAQS
+                    <a href='/' className='pr-12 pb-1 hover:text-green-400' >FAQS
                     </a>
                     <a href='/' className='hover:text-green-400'>CONTACT
                     </a>
                 </div>
 
-                <div className='social-media flex xl:flex-row justify-center pt-4 sm:py-4 md:py-4'>
+                <div className='social-media flex xl:flex-row justify-center py-6  md:py-4'>
                     {/* <div className='flex justify-center items-center space-x-4 border-r border-white w-2/12 '> */}
                     {/*Instagram*/}
                     <a href='/' className='pr-4 xl:pr-8 hover:text-green-400'>
@@ -103,17 +103,17 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-            <div className='h-1/12 border-t border-white py-4 bg-black text-white sm:pb-8 md:pb-8' >
+            <div className='h-1/12 border-t border-white py-8 bg-black text-white sm:pb-8 md:pb-8'>
                 <div className="">
                     <Typography
                         variant="small"
                         className="mb-4 text-center font-normal md:mb-0"
                     >
-                        &copy; {currentYear} Joonhee Senior Living of Kirkland, Washington.
+                        &copy; {currentYear} Joonhee Senior Living of <span className="break-kirkland">Kirkland, Washington.</span>
                     </Typography>
-
                 </div>
             </div>
+
         </div>
 
     )

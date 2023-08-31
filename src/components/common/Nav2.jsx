@@ -4,16 +4,16 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
     { name: 'HOME', href: '/', current: true },
-    { name: 'ABOUT US', href: '/about', current: false },
+    // { name: 'ABOUT US', href: '/about', current: false },
     { name: 'Joonhee', href: '/', current: false },
-    { name: 'OUR AFH', href: '/', current: false },
-    { name: 'FAQS', href: '/', current: false },
+    // { name: 'OUR AFH', href: '/', current: false },
+    { name: 'GALLERY', href: '/', current: false },
 ]
 const menu_navigation = [
     { name: 'HOME', href: '/', current: true },
     { name: 'ABOUT US', href: '/about', current: false },
-    { name: 'OUR AFH', href: '/', current: false },
-    { name: 'FAQS', href: '/', current: false },
+    // { name: 'OUR AFH', href: '/', current: false },
+    { name: 'GALLERY', href: '/', current: false },
     { name: 'CONTACT', href: '/contact', current: false },
 ]
 function classNames(...classes) {
@@ -63,7 +63,7 @@ export default function Example() {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="absolute inset-y-0 left-0 flex items-center md:hidden">
+                            <div className=" inset-y-0 left-0 flex items-center md:hidden">
                                 {/* Mobile menu button*/}
                                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                                     <span className="sr-only">Open main menu</span>

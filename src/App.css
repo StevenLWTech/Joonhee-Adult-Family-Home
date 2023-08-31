@@ -28,11 +28,24 @@
   color: #61dafb;
 }
 .content-wrapper{
-  @apply xl:flex flex-row-reverse xl:pb-48 md:pb-24 sm:pb-12
+  @apply xl:flex flex-row-reverse xl:pb-48 md:pb-24 sm:mb-12
 }
 .content-text{
   @apply max-w-xl text-black p-8 xl:p-12 xl:text-left sm:px-4 sm:text-left
 }
+.contact{
+background: hsla(0, 0%, 100%, 1);
+
+background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 99%, 1) 10%, hsla(37, 100%, 94%, 1) 57%);
+
+background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 99%, 1) 10%, hsla(37, 100%, 94%, 1) 57%);
+
+background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 99%, 1) 10%, hsla(37, 100%, 94%, 1) 57%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#fcfcfc", GradientType=1 );
+}
+
+
 
 @keyframes App-logo-spin {
   from {
