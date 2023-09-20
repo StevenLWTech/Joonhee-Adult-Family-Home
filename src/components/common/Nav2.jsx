@@ -4,9 +4,10 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
     { name: 'HOME', href: '/', current: true },
-    { name: 'ABOUT US', href: '/about', current: false },
+    { name: 'ABOUT US', href: '/none', current: false },
     { name: 'Joonhee', href: '/', current: false },
-    { name: 'OUR AFH', href: '/', current: false },
+    { name: 'OUR AFH', href: '/none', current: false },
+    { name: 'FAQS', href: '/none', current: false },
     // { name: 'GALLERY', href: '/gallery', current: false },
 ]
 const menu_navigation = [
@@ -14,6 +15,7 @@ const menu_navigation = [
     { name: 'ABOUT US', href: '/', current: false },
     { name: 'OUR AFH', href: '/', current: false },
     // { name: 'GALLERY', href: '/gallery', current: false },
+    { name: 'FAQS', href: '/', current: false },
     { name: 'CONTACT', href: '/contact', current: false },
 ]
 function classNames(...classes) {
@@ -86,26 +88,36 @@ export default function Example() {
                                 <div className="hidden md:ml-6 md:block">
                                     <div className="flex flex-row justify-center items-center space-x-4 text-xl">
                                         {navigation.map((item) => (
-                                            <a
-                                                key={item.name}
-                                                href={item.href}
-                                                className={classNames(
-                                                    item.current
-                                                        ? ' text-black text-xl'
-                                                        : ' space-x-16'
-                                                )}
-                                                aria-current={item.current ? 'page' : undefined}
+
+                                            <span class={classNames(
+                                                item.href === '/none' ? 'flex cursor-not-allowed' : '')}
                                             >
-                                                {item.name === 'Joonhee' ? (
-                                                    <span>
-                                                        <div className='text-3xl'>Joonhee</div>
-                                                        <div className='text-sm'>SENIOR LIVING</div>
-                                                    </span>
-                                                ) : (
-                                                    <span className='hover:text-green-400 lg:px-4 xl:px-8'>{item.name}</span>
-                                                )}
-                                            </a>
+                                                <a
+                                                    key={item.name}
+                                                    href={item.href}
+                                                    className={classNames(
+                                                        item.current ? 'text-black text-xl' : 'space-x-16',
+                                                        item.href === '/none' ? 'pointer-events-none' : ''
+                                                    )}
+                                                    aria-current={item.current ? 'page' : undefined}
+                                                >
+
+
+                                                    {item.name === 'Joonhee' ? (
+                                                        <span>
+                                                            <div className='text-3xl'>Joonhee</div>
+                                                            <div className='text-sm'>SENIOR LIVING</div>
+                                                        </span>
+                                                    ) : (
+                                                        <span className='hover:text-green-400 lg:px-4 xl:px-8'>{item.name}</span>
+                                                    )}
+                                                </a>
+                                            </span>
+
+
                                         ))}
+
+
                                     </div>
 
                                 </div>
@@ -127,6 +139,8 @@ export default function Example() {
                                     as="a"
                                     href={item.href}
                                     className={classNames(
+                                        item.href === '/none' ? 'pointer-events-none' : 'text-[#303D46] hover:bg-green-50 hover:text-black',
+                                        'block rounded-md px-3 py-2 text-xl font-medium',
                                         item.current ? 'bg-green-200 text-black text-xl' : 'text-[#303D46] hover:bg-green-50 hover:text-black',
                                         'block rounded-md px-3 py-2 text-xl font-medium'
                                     )}

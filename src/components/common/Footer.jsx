@@ -16,7 +16,7 @@ export default function Footer() {
                         className="h-full w-full object-cover"
                     />
                 </div>
-                <div className='flex flex-col justify-center w-full sm:w-full md:w-full lg:w-1/3 xl:w-1/3 bg-[#FFFFF] text-[#485C69] text-left px-6 pr-12 md:pr-8 my-4'>
+                <div className='flex flex-col justify-center w-full sm:w-full md:w-full lg:w-1/3 xl:w-1/3 bg-[#FFFFF] text-[#485C69] text-left px-6 pr-12 md:pr-8 py-4'>
                     <div className='text-2x1 sm:text-xl md:text-2xl lg:text-xl xl:text-2xl py-4'>--- Contact Us</div>
                     <div className='text-2xl sm:text-4xl md:text-3xl lg:text-4xl xl:text-6xl pb-6 md:pb-2 text-black'>Schedule a Tour Today</div>
                     <div className='text-2xl sm:text-xl md:text-1xl lg:text-xl xl:text-2xl pb-6'>
@@ -114,16 +114,19 @@ export default function Footer() {
                     </span>
                 </div>
             </div>
-            <div className='h-1 /12 border-t border-white py-8 bg-black text-white sm:pb-8 md:pb-8'>
-                <div className="">
+            <div className='h-1/12 border-t border-white py-8 bg-black text-white sm:pb-8 md:pb-8'>
+                <div className="flex flex-col justify-center sm:flex-row"> {/* Use flex-col to stack elements on small screens */}
                     <Typography
-                        variant="small"
-                        className="mb-4 text-center font-normal md:mb-0"
+                        className="text-center font-normal"
                     >
-                        &copy; {currentYear} Joonhee Senior Living of <span className="break-kirkland">Kirkland, Washington.</span>
+                        &copy; {currentYear} Joonhee Senior Living of <br className="sm:hidden" /> {/* Hide on small screens */}
+                        <span className="">Kirkland, Washington.</span>
                     </Typography>
                 </div>
             </div>
+
+
+
 
         </div>
 

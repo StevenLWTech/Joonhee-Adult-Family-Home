@@ -6,7 +6,7 @@ export default function Landing() {
     return (
         // <main className="section-landing flex flex-col xl:flex-row justify-center items-center md:h-[calc(100vh-_128px)] lg:h-[calc(100vh-_160px)] xl:h-[calc(100vh-_160px)]">
         <main className="section-landing flex flex-col xl:flex-row justify-center items-center md:h-100vh lg:h-[calc(100vh-_160px)] xl:h-[calc(100vh-_160px)] md:py-16">
-            <article className="wrapper xl:flex flex-row-reverse lg:my-16 xl:my-16 max-w-7xl px-4 md:px-8">
+            <article className="wrapper xl:flex flex-row-reverse lg:my-16 xl:my-16 max-w-7xl px-4 md:px-8 sm:pb-8">
                 <header className='md:hidden text-2xl py-8'>JOONHEE SENIOR LIVING OF KIRKLAND</header>
 
                 <section className="content-img xl:w-1/2 xl:px-4 xl:px-12">

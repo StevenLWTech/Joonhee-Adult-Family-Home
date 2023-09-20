@@ -49,13 +49,6 @@ code {
   display: inline;
 }
 
-/* Media query to change display to 'block' for small screens */
-@media (max-width: 640px) {
-  .break-kirkland {
-    display: block;
-  }
-}
-
 .section-landing{
 background: hsla(152, 100%, 91%, 1);
 

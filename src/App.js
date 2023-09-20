@@ -17,6 +17,7 @@ function App() {
       <Nav2/>
 
       <Routes>
+        
         <Route path="/" exact element={<Home />} />
         <Route path="/about" exact element={<About />} />
         <Route path="/contact" exact element={<Contact />} />
